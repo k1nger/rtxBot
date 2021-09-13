@@ -3,11 +3,11 @@ from botocore.exceptions import ClientError
 
 # Replace sender@example.com with your "From" address.
 # This address must be verified with Amazon SES.
-SENDER = "RTXBot <rmk5056@gmail.com>"
+SENDER = "RTXBot <email@address.com>"
 
 # Replace recipient@example.com with a "To" address. If your account 
 # is still in the sandbox, this address must be verified.
-RECIPIENT = "rmk5056@gmail.com"
+RECIPIENT = "email@address.com"
 
 # If necessary, replace us-west-2 with the AWS Region you're using for Amazon SES.
 AWS_REGION = "us-east-1"
